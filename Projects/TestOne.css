@@ -9,15 +9,15 @@ justify-content: center;}
 
 * {box-sizing: border-box;}
 #d1 {
-	position: relative;
+	position: absolute;
 background-color: blue;
 }
 #d2 {
-	position: relative;
+	position: absolute;
 background-color: red;
 }
 #d3 {
-	position: relative;
+	position: absolute;
 background-color: yellow;
 }
 @media (min-width: 768px) and (max-width: 991px) {}
