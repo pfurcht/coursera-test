@@ -9,53 +9,42 @@ h1{font: 1.2em;
 justify-content: center;}
 
 * {box-sizing: border-box;}
-p {float: right;}
-section {clear: left;}
+p {float: right;
+	padding: 2px;
+	margin: 0px 0px 10px 0px;
+	width: 33.33%;
+}
+div {float: left;
+	padding: 0px 0px 0px 10px;
+	margin: 20px;
+	height: 100px;
+	width: 33.33%;
+}
+section {clear: right;}
 
 #box1 {
 	background-color: lightcoral;
-	padding: 10px;
 	border: 3px solid black;
-	margin: 20px;
-	height: 100px;
-	width: 300px;
 	}
 #box2 {
 	background-color: aqua;
-	padding: 10px;
 	border: 3px solid black;
-	margin: 20px;
-	height: 100px;
-	width: 33.33%;
 	}
 #box3 {
 	background-color: moccasin;
-	padding: 10px;
 	border: 3px solid black;
-	margin: 20px;
-	height: 100px;
-	width: 33.33%;
 	}
-#cont1 {
+#p1 {
 	background-color: sandybrown;
-	padding: 2px;
 	border: 1px solid orange;
-	margin: 6px;
-	width: 33.33%;
 	}
-#cont2 {
+#p2 {
 	background-color: aquamarine;
-	padding: 2px;
 	border: 1px solid cornflowerblue;
-	margin: 6px;
-	width: 50px;
 	}
-#cont3 {
+#p3 {
 	background-color: bisque;
-	padding: 2px;
 	border: 1px solid burlywood;
-	margin: 6px;
-	width: 50px;
 	}
 @media (min-width: 768px) and (max-width: 991px) {body {background-color: #c0c0c0;}}
 @media (max-width: 767px)
