@@ -2,7 +2,7 @@ body {font-family: cursive;
 	font-weight: 100;
 	margin:0;
 	padding:0;
-	background-color: #c0ffc0;}
+	background-color: lightblue;}
 
 h1{font: 1.2em;
 	text-align: center;
@@ -16,19 +16,17 @@ p {float: right;
 	width: 100px;
 	text-align:center;
 	}
-div {float: left;
+div {
 	padding: 0px 0px 0px 10px;
 	margin: 20px;
 	height: auto;
 	width: 29%;
+	background-color: lightcoral;
+	border: 3px solid black;
 	}
 section {clear: right;
 	}
 
-.box1 {
-	background-color: lightcoral;
-	border: 3px solid black;
-	}
 #p1 {
 	background-color: sandybrown;
 	border: 1px solid orange;
@@ -41,15 +39,15 @@ section {clear: right;
 	background-color: bisque;
 	border: 1px solid burlywood;
 	}
+@media (min-width: 992px) {
+	body {background-color: #c0ffc0;}
+	div {float: left;}
+	.box1 {width: 33.3%;}
+	.box2 {width: 33.3%;}
+		}
 @media (min-width: 768px) and (max-width: 991px) {
 	body {background-color: lightgrey;}
-	#box1 {width: 45%;}
-	#box2 {width: 45%;}
-	#box3 {width: 100%;}
+	div {float: left;}
+	.box1 {width: 45%;}
+	.box2 {width: 100%;}
 	}
-@media (max-width: 767px) {
-	body {background-color: lightblue;}
-	#box1 {width: 100%;}
-	#box2 {width: 100%;}
-	#box3 {width: 100%;}
-}
