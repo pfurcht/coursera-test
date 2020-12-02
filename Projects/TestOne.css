@@ -20,7 +20,7 @@ div {
 	padding: 0px 0px 0px 10px;
 	margin: 20px;
 	height: auto;
-	width: 29%;
+	width: auto;
 	background-color: lightcoral;
 	border: 3px solid black;
 	}
@@ -42,12 +42,12 @@ section {clear: right;
 @media (min-width: 992px) {
 	body {background-color: #c0ffc0;}
 	div {float: left;}
-	.box1 {width: 33.3%;}
-	.box2 {width: 33.3%;}
+	.box1 {width: 29%;}
+	.box2 {width: 29%;}
 		}
 @media (min-width: 768px) and (max-width: 991px) {
 	body {background-color: lightgrey;}
 	div {float: left;}
 	.box1 {width: 45%;}
-	.box2 {width: 100%;}
+	.box2 {width: 95%;}
 	}
