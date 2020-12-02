@@ -1,4 +1,4 @@
-body {font-family: Fira Sans, serif;
+body {font-family: cursive;
 	font-weight: 100;
 margin:0;
 padding:0;
@@ -13,6 +13,7 @@ justify-content: center;}
 	padding: 10px;
 	border: 3px solid black;
 	margin: 20px;
+	height: 100px;
 	width: 300px;
 	}
 #box2 {
@@ -20,6 +21,7 @@ justify-content: center;}
 	padding: 10px;
 	border: 3px solid black;
 	margin: 20px;
+	height: 100px;
 	width: 300px;
 	}
 #box3 {
@@ -27,15 +29,15 @@ justify-content: center;}
 	padding: 10px;
 	border: 3px solid black;
 	margin: 20px;
+	height: 100px;
 	width: 300px;
 	}
-#content1 {
-	position: absolute;
+#cont1 {
 	background-color: #f0f0f0;
 	padding: 2px;
 	border: 1px solid black;
 	margin: 6px;
 	width: 200px;
 	}
-@media (min-width: 768px) and (max-width: 991px) {background-color: #c0c0c0;}
-@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {body {background-color: #c0c0c0;}}
+@media (max-width: 767px)
