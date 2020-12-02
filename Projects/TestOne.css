@@ -8,6 +8,9 @@ h1{font: 1.2em;
 justify-content: center;}
 
 * {box-sizing: border-box;}
+p {float: right;}
+section {clear: left;}
+
 #box1 {
 	background-color: blue;
 	padding: 10px;
