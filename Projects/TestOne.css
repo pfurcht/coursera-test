@@ -4,7 +4,7 @@ body {font-family: cursive;
 	padding:0;
 	background-color: lightblue;}
 
-h1{font: 1.2em;
+h1 {font: 1.2em;
 	text-align: center;
 	justify-content: center;}
 
@@ -12,42 +12,37 @@ h1{font: 1.2em;
 
 p {float: right;
 	padding: 2px;
-	margin: 0px 0px 10px 0px;
+	margin: 0px -10px 10px 0px;
 	width: 100px;
 	text-align:center;
+	border: 2px solid black;
 	}
 div {
-	padding: 0px 0px 0px 10px;
-	margin: 20px;
-	height: auto;
-	width: auto;
-	background-color: lightcoral;
-	border: 3px solid black;
+	padding: 0px 10px 10px 10px;
 	}
 section {clear: right;
 	}
 
 #p1 {
 	background-color: sandybrown;
-	border: 1px solid orange;
 	}
 #p2 {
 	background-color: aquamarine;
-	border: 1px solid cornflowerblue;
 	}
 #p3 {
 	background-color: bisque;
-	border: 1px solid burlywood;
 	}
+.box1 {border: 2px black;background-color: lightcoral;}
+.box2 {border: 2px black;background-color: lightcoral;}
 @media (min-width: 992px) {
 	body {background-color: #c0ffc0;}
-	div {float: left;}
-	.box1 {width: 29%;}
-	.box2 {width: 29%;}
+	div {float: left;width: 33.33%;}
+	.box1 {width: 100%;}
+	.box2 {width: 100%;}
 		}
 @media (min-width: 768px) and (max-width: 991px) {
 	body {background-color: lightgrey;}
-	div {float: left;}
-	.box1 {width: 45%;}
-	.box2 {width: 95%;}
+	div {float: left;width:50%}
+	.box1 {width: 100%;}
+	.box2 {width: 205%;margin: 20px 0px 0px 0px;}
 	}
