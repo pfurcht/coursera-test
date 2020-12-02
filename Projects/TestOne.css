@@ -8,15 +8,15 @@ h1{font: 1.2em;
 justify-content: center;}
 
 * {box-sizing: border-box;}
-#p1 {
+#d1 {
 	position: relative;
 background-color: blue;
 }
-#p2 {
+#d2 {
 	position: relative;
 background-color: red;
 }
-#p3 {
+#d3 {
 	position: relative;
 background-color: yellow;
 }
