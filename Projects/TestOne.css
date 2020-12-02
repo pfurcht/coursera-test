@@ -1,7 +1,24 @@
-body {font-family: Ariel, Helvetica;
+body {font-family: Fira Sans, serif;
 	font-weight: 100;
 margin:0;
 padding:0;
 background-color: #c0ffc0;}
-#Section1 {color: green;}
 
+h1{font: 1.2em;
+justify-content: center;}
+
+* {box-sizing: border-box;}
+#p1 {
+	position: relative;
+background-color: blue;
+}
+#p2 {
+	position: relative;
+background-color: red;
+}
+#p3 {
+	position: relative;
+background-color: yellow;
+}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
