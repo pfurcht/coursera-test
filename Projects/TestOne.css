@@ -25,16 +25,8 @@ div {float: left;
 section {clear: right;
 	}
 
-#box1 {
+.box1 {
 	background-color: lightcoral;
-	border: 3px solid black;
-	}
-#box2 {
-	background-color: aqua;
-	border: 3px solid black;
-	}
-#box3 {
-	background-color: moccasin;
 	border: 3px solid black;
 	}
 #p1 {
