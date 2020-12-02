@@ -12,7 +12,7 @@ p {float: right;}
 section {clear: left;}
 
 #box1 {
-	background-color: blue;
+	background-color: lightcoral;
 	padding: 10px;
 	border: 3px solid black;
 	margin: 20px;
@@ -20,7 +20,7 @@ section {clear: left;}
 	width: 300px;
 	}
 #box2 {
-	background-color: red;
+	background-color: aqua;
 	padding: 10px;
 	border: 3px solid black;
 	margin: 20px;
@@ -28,7 +28,7 @@ section {clear: left;}
 	width: 300px;
 	}
 #box3 {
-	background-color: yellow;
+	background-color: moccasin;
 	padding: 10px;
 	border: 3px solid black;
 	margin: 20px;
@@ -36,11 +36,25 @@ section {clear: left;}
 	width: 300px;
 	}
 #cont1 {
-	background-color: #f0f0ff;
+	background-color: sandybrown;
 	padding: 2px;
-	border: 1px solid black;
+	border: 1px solid orange;
 	margin: 6px;
-	width: 200px;
+	width: 50px;
+	}
+#cont2 {
+	background-color: aquamarine;
+	padding: 2px;
+	border: 1px solid cornflowerblue;
+	margin: 6px;
+	width: 50px;
+	}
+#cont3 {
+	background-color: bisque;
+	padding: 2px;
+	border: 1px solid burlywood;
+	margin: 6px;
+	width: 50px;
 	}
 @media (min-width: 768px) and (max-width: 991px) {body {background-color: #c0c0c0;}}
 @media (max-width: 767px)
