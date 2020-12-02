@@ -5,6 +5,7 @@ padding:0;
 background-color: #c0ffc0;}
 
 h1{font: 1.2em;
+	text-align: center;
 justify-content: center;}
 
 * {box-sizing: border-box;}
@@ -25,7 +26,7 @@ section {clear: left;}
 	border: 3px solid black;
 	margin: 20px;
 	height: 100px;
-	width: 300px;
+	width: 33.33%;
 	}
 #box3 {
 	background-color: moccasin;
@@ -33,14 +34,14 @@ section {clear: left;}
 	border: 3px solid black;
 	margin: 20px;
 	height: 100px;
-	width: 300px;
+	width: 33.33%;
 	}
 #cont1 {
 	background-color: sandybrown;
 	padding: 2px;
 	border: 1px solid orange;
 	margin: 6px;
-	width: 50px;
+	width: 33.33%;
 	}
 #cont2 {
 	background-color: aquamarine;
